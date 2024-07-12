@@ -3,6 +3,7 @@ import pandas as pd
 import regex as re
 import joblib
 import en_core_web_sm
+import spacy
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.svm import LinearSVC
